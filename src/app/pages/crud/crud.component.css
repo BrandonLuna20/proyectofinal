@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
 
 body {
+  height: 600px;
+  background-image: url("https://pa1.narvii.com/7334/a8c204f9787fb52c569deed73e624d2c3d6636e3r1-500-258_hq.gif");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
   background-color: #000000;
   font-family: "Arial";
   text-align: left;
@@ -110,7 +115,7 @@ body {
 }
 
 .card-header {
-  background-image: linear-gradient(163deg, #000000 0%, #000000 100%);
+  background-image: linear-gradient(163deg, #076aff 0%, #076aff 100%);
   text-align: center;
 }
 .card {
@@ -128,7 +133,7 @@ button.b1 {
   text-transform: uppercase;
   font-weight: 500;
   color: #000;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(146, 146, 146);
   border: none;
   border-radius: 45px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -138,8 +143,8 @@ button.b1 {
 }
 
 button.b1:hover {
-  background-color: #1e1688;
-  color: rgb(255, 255, 255);
+  background-color: #3b3492;
+  color: rgb(146, 146, 146);
   transform: translateY(-7px);
 }
 
@@ -155,7 +160,7 @@ button.b2 {
   text-transform: uppercase;
   font-weight: 500;
   color: #000;
-  background-color: #fff;
+  background-color: rgb(146, 146, 146);
   border: none;
   border-radius: 45px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -182,7 +187,7 @@ button.b3 {
   text-transform: uppercase;
   font-weight: 500;
   color: #000;
-  background-color: #fff;
+  background-color: rgb(146, 146, 146);
   border: none;
   border-radius: 45px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);

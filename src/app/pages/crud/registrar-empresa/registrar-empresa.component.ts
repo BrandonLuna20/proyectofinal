@@ -23,10 +23,9 @@ export class RegistrarEmpresaComponent implements OnInit {
   {
     this.EmpresasService.postUsuario(this.usuario)
     .then((response: any) => {
-      Swal.fire
-      ({
+      Swal.fire({
         icon: "success",
-        text: "Se registró la empresa exitosamente"
+        text: "Se registró el usuario exitosamente"
       });
       forma.reset();
       this.emitirRegistro.emit();

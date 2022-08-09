@@ -66,17 +66,8 @@ export class CrudComponent implements OnInit {
         this.EmpresasService.deleteUsuarios(empresa._id)
         .then((response: any) => {
           Swal.fire({
-            title: 'Se Borro Correctamente',
-            width: 600,
-            padding: '3em',
-            color: '#fff',
-            background: '#fff url(/images/trees.png)',
-            backdrop: `
-              rgba(0,0,123,0.4)
-              url("https://i.imgur.com/tNnaOfo.gif")
-              left top
-              no-repeat
-            `
+        icon: "success",
+        text: "Se Borro Exitosamente"
           })
           this.obtenerEmpresas();
         })
